@@ -13,6 +13,8 @@ BIP-😸 is an **informational BIP** that explores encoding Bitcoin addresses as
 - **[TODO.md](TODO.md)** - Comprehensive task breakdown with 8 development phases
 - **[BIP_REVIEW.md](BIP_REVIEW.md)** - Detailed analysis of strengths, weaknesses, and challenges
 
+**Note**: For parsing the emoji HTML table, see [this Stack Overflow guide](https://stackoverflow.com/questions/6325216/parse-html-table-to-python-list)
+
 ## 🎯 Core Concept
 
 Map Bitcoin Base58 characters (58 total) to 58 distinct emoji:
