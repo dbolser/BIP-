@@ -1,88 +1,54 @@
 #!/usr/bin/env python3
 """
-Scrape emoji data from Unicode.org full emoji list
-Downloads emoji images and creates metadata JSON
+Scrape emoji data from Unicode.org emoji test file
+Much faster and lighter than the full HTML page
 """
 
 import requests
-from bs4 import BeautifulSoup
 import json
 import os
-import time
-from urllib.parse import urljoin
+import re
 
-def scrape_emoji_list():
-    """Scrape the Unicode emoji list and download images"""
+def scrape_emoji_test():
+    """Scrape the Unicode emoji test file for emoji data"""
 
-    url = "https://unicode.org/emoji/charts/full-emoji-list.html"
+    url = "https://unicode.org/Public/emoji/16.0/emoji-test.txt"
     print(f"Fetching {url}...")
 
-    response = requests.get(url)
+    response = requests.get(url, timeout=30)
     response.raise_for_status()
 
-    print("Parsing HTML...")
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Find the emoji table
-    table = soup.find('table')
-    if not table:
-        print("ERROR: Could not find emoji table!")
-        return
+    print("Parsing emoji test data...")
 
     emoji_data = []
+    lines = response.text.split('\n')
 
-    # Parse table rows
-    rows = table.find_all('tr')
-    print(f"Found {len(rows)} rows in table")
-
-    for i, row in enumerate(rows):
-        if i == 0:  # Skip header
+    for line in lines:
+        # Skip comments and empty lines
+        if not line or line.startswith('#'):
             continue
 
-        cols = row.find_all('td')
-        if len(cols) < 3:
-            continue
+        # Parse emoji test format:
+        # codepoint ; status # emoji E version name
+        # Example: 1F600 ; fully-qualified # 😀 E1.0 grinning face
 
-        # Extract data
-        try:
-            # Column 0: Number
-            # Column 1: Code (codepoints)
-            # Column 2+: Images from different platforms
-            # Last column: CLDR short name
-
-            code_col = cols[1] if len(cols) > 1 else None
-            name_col = cols[-1] if len(cols) > 0 else None
-
-            if not code_col or not name_col:
-                continue
-
-            codepoint = code_col.get_text(strip=True)
-            cldr_name = name_col.get_text(strip=True)
-
-            # Get platform images
-            platform_images = {}
-            image_cols = cols[2:-1]  # All columns between code and name
-
-            for img_col in image_cols:
-                img_tag = img_col.find('img')
-                if img_tag and img_tag.get('src'):
-                    # Platform name might be in header
-                    platform_images[f"platform_{len(platform_images)}"] = img_tag['src']
+        match = re.match(r'^([0-9A-F\s]+)\s*;\s*(\S+)\s*#\s*(\S+)\s+E(\S+)\s+(.+)$', line)
+        if match:
+            codepoints = match.group(1).strip()
+            status = match.group(2)
+            emoji_char = match.group(3)
+            version = match.group(4)
+            name = match.group(5).strip()
 
             emoji_info = {
-                'codepoint': codepoint,
-                'cldr_name': cldr_name,
-                'platform_images': platform_images
+                'codepoint': codepoints,
+                'status': status,
+                'emoji': emoji_char,
+                'version': version,
+                'name': name
             }
 
             emoji_data.append(emoji_info)
-
-            if i % 100 == 0:
-                print(f"Processed {i} rows...")
-
-        except Exception as e:
-            print(f"Error processing row {i}: {e}")
-            continue
 
     print(f"\nExtracted {len(emoji_data)} emoji entries")
 
@@ -94,17 +60,23 @@ def scrape_emoji_list():
 
     print(f"Saved metadata to data/emoji_metadata.json")
 
-    # Show sample
+    # Show sample and statistics
     if emoji_data:
         print("\nSample entries:")
-        for item in emoji_data[:5]:
-            print(f"  {item['codepoint']} - {item['cldr_name']}")
+        for item in emoji_data[:10]:
+            print(f"  {item['emoji']} - {item['name']} (E{item['version']})")
+
+        # Count by status
+        fully_qualified = sum(1 for e in emoji_data if e['status'] == 'fully-qualified')
+        print(f"\nStatistics:")
+        print(f"  Total: {len(emoji_data)}")
+        print(f"  Fully-qualified: {fully_qualified}")
 
     return emoji_data
 
 if __name__ == '__main__':
     try:
-        scrape_emoji_list()
+        scrape_emoji_test()
     except Exception as e:
         print(f"Error: {e}")
         import traceback
