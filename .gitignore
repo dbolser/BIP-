@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# BIP-emoji specific
+data/test_images/
+data/emoji_images/
+*.png
+*.jpg
+*.jpeg
