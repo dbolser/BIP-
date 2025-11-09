@@ -1,0 +1,413 @@
+{
+  "base58_alphabet": "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",
+  "mapping": {
+    "1": {
+      "emoji": "🧔",
+      "name": "person: beard",
+      "distinctiveness": 0.35587312370600416,
+      "priority": 1
+    },
+    "3": {
+      "emoji": "🍊",
+      "name": "tangerine",
+      "distinctiveness": 0.357814117494824,
+      "priority": 2
+    },
+    "X": {
+      "emoji": "💮",
+      "name": "white flower",
+      "distinctiveness": 0.3578302924430642,
+      "priority": 3
+    },
+    "e": {
+      "emoji": "🫅",
+      "name": "person with crown",
+      "distinctiveness": 0.3578626423395445,
+      "priority": 4
+    },
+    "Y": {
+      "emoji": "👧",
+      "name": "girl",
+      "distinctiveness": 0.3580890916149068,
+      "priority": 5
+    },
+    "f": {
+      "emoji": "🤴",
+      "name": "prince",
+      "distinctiveness": 0.35910811335403725,
+      "priority": 6
+    },
+    "i": {
+      "emoji": "🕸️",
+      "name": "spider web",
+      "distinctiveness": 0.3593345626293996,
+      "priority": 7
+    },
+    "F": {
+      "emoji": "🏵️",
+      "name": "rosette",
+      "distinctiveness": 0.3602241847826087,
+      "priority": 8
+    },
+    "u": {
+      "emoji": "🧑",
+      "name": "person",
+      "distinctiveness": 0.36032123447204967,
+      "priority": 9
+    },
+    "H": {
+      "emoji": "👵",
+      "name": "old woman",
+      "distinctiveness": 0.3606609083850932,
+      "priority": 10
+    },
+    "p": {
+      "emoji": "✊",
+      "name": "raised fist",
+      "distinctiveness": 0.3612108566252588,
+      "priority": 11
+    },
+    "J": {
+      "emoji": "👩",
+      "name": "woman",
+      "distinctiveness": 0.36179315476190477,
+      "priority": 12
+    },
+    "Z": {
+      "emoji": "👨",
+      "name": "man",
+      "distinctiveness": 0.36290922619047616,
+      "priority": 13
+    },
+    "r": {
+      "emoji": "🧒",
+      "name": "child",
+      "distinctiveness": 0.36292540113871635,
+      "priority": 14
+    },
+    "L": {
+      "emoji": "🍈",
+      "name": "melon",
+      "distinctiveness": 0.36362092391304346,
+      "priority": 15
+    },
+    "b": {
+      "emoji": "🧓",
+      "name": "older person",
+      "distinctiveness": 0.3640738224637681,
+      "priority": 16
+    },
+    "n": {
+      "emoji": "👲",
+      "name": "person with skullcap",
+      "distinctiveness": 0.36410617236024845,
+      "priority": 17
+    },
+    "9": {
+      "emoji": "👴",
+      "name": "old man",
+      "distinctiveness": 0.36486639492753625,
+      "priority": 18
+    },
+    "P": {
+      "emoji": "🥝",
+      "name": "kiwi fruit",
+      "distinctiveness": 0.36506049430641824,
+      "priority": 19
+    },
+    "A": {
+      "emoji": "🤶",
+      "name": "Mrs. Claus",
+      "distinctiveness": 0.366305965320911,
+      "priority": 20
+    },
+    "D": {
+      "emoji": "🍎",
+      "name": "red apple",
+      "distinctiveness": 0.3668559135610766,
+      "priority": 21
+    },
+    "m": {
+      "emoji": "👱",
+      "name": "person: blond hair",
+      "distinctiveness": 0.3673411620082816,
+      "priority": 22
+    },
+    "a": {
+      "emoji": "🐣",
+      "name": "hatching chick",
+      "distinctiveness": 0.3674705615942029,
+      "priority": 23
+    },
+    "c": {
+      "emoji": "🖐️",
+      "name": "hand with fingers splayed",
+      "distinctiveness": 0.36797198498964806,
+      "priority": 24
+    },
+    "M": {
+      "emoji": "🍏",
+      "name": "green apple",
+      "distinctiveness": 0.3682469591097309,
+      "priority": 25
+    },
+    "v": {
+      "emoji": "👦",
+      "name": "boy",
+      "distinctiveness": 0.3684895833333333,
+      "priority": 26
+    },
+    "E": {
+      "emoji": "🪲",
+      "name": "beetle",
+      "distinctiveness": 0.3690718814699793,
+      "priority": 27
+    },
+    "4": {
+      "emoji": "✋",
+      "name": "raised hand",
+      "distinctiveness": 0.37101287525879917,
+      "priority": 28
+    },
+    "y": {
+      "emoji": "🐵",
+      "name": "monkey face",
+      "distinctiveness": 0.3712393245341615,
+      "priority": 29
+    },
+    "Q": {
+      "emoji": "🦪",
+      "name": "oyster",
+      "distinctiveness": 0.3715304736024845,
+      "priority": 30
+    },
+    "S": {
+      "emoji": "🫑",
+      "name": "bell pepper",
+      "distinctiveness": 0.371578998447205,
+      "priority": 31
+    },
+    "N": {
+      "emoji": "😶",
+      "name": "face without mouth",
+      "distinctiveness": 0.3718863224637681,
+      "priority": 32
+    },
+    "o": {
+      "emoji": "🐶",
+      "name": "dog face",
+      "distinctiveness": 0.3731964932712215,
+      "priority": 33
+    },
+    "W": {
+      "emoji": "👋",
+      "name": "waving hand",
+      "distinctiveness": 0.37334206780538304,
+      "priority": 34
+    },
+    "q": {
+      "emoji": "🍑",
+      "name": "peach",
+      "distinctiveness": 0.3734876423395445,
+      "priority": 35
+    },
+    "K": {
+      "emoji": "🦔",
+      "name": "hedgehog",
+      "distinctiveness": 0.373633216873706,
+      "priority": 36
+    },
+    "z": {
+      "emoji": "🐞",
+      "name": "lady beetle",
+      "distinctiveness": 0.3736979166666667,
+      "priority": 37
+    },
+    "5": {
+      "emoji": "🤚",
+      "name": "raised back of hand",
+      "distinctiveness": 0.37402141563146996,
+      "priority": 38
+    },
+    "t": {
+      "emoji": "🖖",
+      "name": "vulcan salute",
+      "distinctiveness": 0.37516983695652173,
+      "priority": 39
+    },
+    "B": {
+      "emoji": "🫵",
+      "name": "index pointing at the viewer",
+      "distinctiveness": 0.37516983695652173,
+      "priority": 40
+    },
+    "x": {
+      "emoji": "👸",
+      "name": "princess",
+      "distinctiveness": 0.37554186076604557,
+      "priority": 41
+    },
+    "G": {
+      "emoji": "🍁",
+      "name": "maple leaf",
+      "distinctiveness": 0.37615650879917184,
+      "priority": 42
+    },
+    "2": {
+      "emoji": "🤫",
+      "name": "shushing face",
+      "distinctiveness": 0.3763344332298137,
+      "priority": 43
+    },
+    "T": {
+      "emoji": "🌸",
+      "name": "cherry blossom",
+      "distinctiveness": 0.3765932324016563,
+      "priority": 44
+    },
+    "R": {
+      "emoji": "🤲",
+      "name": "palms up together",
+      "distinctiveness": 0.37741815476190477,
+      "priority": 45
+    },
+    "k": {
+      "emoji": "🍐",
+      "name": "pear",
+      "distinctiveness": 0.3781622023809524,
+      "priority": 46
+    },
+    "8": {
+      "emoji": "👶",
+      "name": "baby",
+      "distinctiveness": 0.37948854813664595,
+      "priority": 47
+    },
+    "s": {
+      "emoji": "🌳",
+      "name": "deciduous tree",
+      "distinctiveness": 0.37950472308488614,
+      "priority": 48
+    },
+    "g": {
+      "emoji": "🦻",
+      "name": "ear with hearing aid",
+      "distinctiveness": 0.3795208980331263,
+      "priority": 49
+    },
+    "6": {
+      "emoji": "🙈",
+      "name": "see-no-evil monkey",
+      "distinctiveness": 0.37955324792960665,
+      "priority": 50
+    },
+    "j": {
+      "emoji": "🫥",
+      "name": "dotted line face",
+      "distinctiveness": 0.37963412267080743,
+      "priority": 51
+    },
+    "C": {
+      "emoji": "👏",
+      "name": "clapping hands",
+      "distinctiveness": 0.37982822204968947,
+      "priority": 52
+    },
+    "w": {
+      "emoji": "👂",
+      "name": "ear",
+      "distinctiveness": 0.37982822204968947,
+      "priority": 53
+    },
+    "d": {
+      "emoji": "🪴",
+      "name": "potted plant",
+      "distinctiveness": 0.37995762163561075,
+      "priority": 54
+    },
+    "V": {
+      "emoji": "😦",
+      "name": "frowning face with open mouth",
+      "distinctiveness": 0.3807987189440994,
+      "priority": 55
+    },
+    "h": {
+      "emoji": "🫰",
+      "name": "hand with index finger and thumb crossed",
+      "distinctiveness": 0.38123544254658387,
+      "priority": 56
+    },
+    "U": {
+      "emoji": "🗯️",
+      "name": "right anger bubble",
+      "distinctiveness": 0.3814942417184265,
+      "priority": 57
+    },
+    "7": {
+      "emoji": "👊",
+      "name": "oncoming fist",
+      "distinctiveness": 0.38214123964803315,
+      "priority": 58
+    }
+  },
+  "priority_order": [
+    "1",
+    "3",
+    "X",
+    "e",
+    "Y",
+    "f",
+    "i",
+    "F",
+    "u",
+    "H",
+    "p",
+    "J",
+    "Z",
+    "r",
+    "L",
+    "b",
+    "n",
+    "9",
+    "P",
+    "A",
+    "D",
+    "m",
+    "a",
+    "c",
+    "M",
+    "v",
+    "E",
+    "4",
+    "y",
+    "Q",
+    "S",
+    "N",
+    "o",
+    "W",
+    "q",
+    "K",
+    "z",
+    "5",
+    "t",
+    "B",
+    "x",
+    "G",
+    "2",
+    "T",
+    "R",
+    "k",
+    "8",
+    "s",
+    "g",
+    "6",
+    "j",
+    "C",
+    "w",
+    "d",
+    "V",
+    "h",
+    "U",
+    "7"
+  ]
+}
