@@ -1,0 +1,758 @@
+[
+  {
+    "codepoint": "1F92D",
+    "status": "fully-qualified",
+    "emoji": "🤭",
+    "version": "5.0",
+    "name": "face with hand over mouth"
+  },
+  {
+    "codepoint": "1F602",
+    "status": "fully-qualified",
+    "emoji": "😂",
+    "version": "0.6",
+    "name": "face with tears of joy"
+  },
+  {
+    "codepoint": "1F9D0",
+    "status": "fully-qualified",
+    "emoji": "🧐",
+    "version": "5.0",
+    "name": "face with monocle"
+  },
+  {
+    "codepoint": "1F595 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "🖕🏿",
+    "version": "1.0",
+    "name": "middle finger: dark skin tone"
+  },
+  {
+    "codepoint": "1F446",
+    "status": "fully-qualified",
+    "emoji": "👆",
+    "version": "0.6",
+    "name": "backhand index pointing up"
+  },
+  {
+    "codepoint": "1F90C 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "🤌🏿",
+    "version": "13.0",
+    "name": "pinched fingers: dark skin tone"
+  },
+  {
+    "codepoint": "1F375",
+    "status": "fully-qualified",
+    "emoji": "🍵",
+    "version": "0.6",
+    "name": "teacup without handle"
+  },
+  {
+    "codepoint": "1FAF7 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🫷🏾",
+    "version": "15.0",
+    "name": "leftwards pushing hand: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FF 200D 1F91D 200D 1F468 1F3FC",
+    "status": "fully-qualified",
+    "emoji": "👩🏿‍🤝‍👨🏼",
+    "version": "12.0",
+    "name": "woman and man holding hands: dark skin tone, medium-light skin tone"
+  },
+  {
+    "codepoint": "1F45C",
+    "status": "fully-qualified",
+    "emoji": "👜",
+    "version": "0.6",
+    "name": "handbag"
+  },
+  {
+    "codepoint": "1F9D1 1F3FC 200D 1F91D 200D 1F9D1 1F3FC",
+    "status": "fully-qualified",
+    "emoji": "🧑🏼‍🤝‍🧑🏼",
+    "version": "12.0",
+    "name": "people holding hands: medium-light skin tone"
+  },
+  {
+    "codepoint": "1FAF4 1F3FC",
+    "status": "fully-qualified",
+    "emoji": "🫴🏼",
+    "version": "14.0",
+    "name": "palm up hand: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FB 200D 1F91D 200D 1F469 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "👩🏻‍🤝‍👩🏾",
+    "version": "12.1",
+    "name": "women holding hands: light skin tone, medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F412",
+    "status": "fully-qualified",
+    "emoji": "🐒",
+    "version": "0.6",
+    "name": "monkey"
+  },
+  {
+    "codepoint": "1F95D",
+    "status": "fully-qualified",
+    "emoji": "🥝",
+    "version": "3.0",
+    "name": "kiwi fruit"
+  },
+  {
+    "codepoint": "1F9D5 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🧕🏽",
+    "version": "5.0",
+    "name": "woman with headscarf: medium skin tone"
+  },
+  {
+    "codepoint": "1F938 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "🤸🏿",
+    "version": "3.0",
+    "name": "person cartwheeling: dark skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FB 200D 2764 FE0F 200D 1F468 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "👩🏻‍❤️‍👨🏽",
+    "version": "13.1",
+    "name": "couple with heart: woman, man, light skin tone, medium skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FC 200D 2764 FE0F 200D 1F468 1F3FC",
+    "status": "fully-qualified",
+    "emoji": "👩🏼‍❤️‍👨🏼",
+    "version": "13.1",
+    "name": "couple with heart: woman, man, medium-light skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FF 200D 2764 FE0F 200D 1F469 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "👩🏿‍❤️‍👩🏿",
+    "version": "13.1",
+    "name": "couple with heart: woman, woman, dark skin tone"
+  },
+  {
+    "codepoint": "1F504",
+    "status": "fully-qualified",
+    "emoji": "🔄",
+    "version": "1.0",
+    "name": "counterclockwise arrows button"
+  },
+  {
+    "codepoint": "1F49E",
+    "status": "fully-qualified",
+    "emoji": "💞",
+    "version": "0.6",
+    "name": "revolving hearts"
+  },
+  {
+    "codepoint": "1F1EC 1F1EE",
+    "status": "fully-qualified",
+    "emoji": "🇬🇮",
+    "version": "2.0",
+    "name": "flag: Gibraltar"
+  },
+  {
+    "codepoint": "1F1F8 1F1E8",
+    "status": "fully-qualified",
+    "emoji": "🇸🇨",
+    "version": "2.0",
+    "name": "flag: Seychelles"
+  },
+  {
+    "codepoint": "1F1EC 1F1FE",
+    "status": "fully-qualified",
+    "emoji": "🇬🇾",
+    "version": "2.0",
+    "name": "flag: Guyana"
+  },
+  {
+    "codepoint": "1F1F8 1F1FB",
+    "status": "fully-qualified",
+    "emoji": "🇸🇻",
+    "version": "2.0",
+    "name": "flag: El Salvador"
+  },
+  {
+    "codepoint": "1F1F0 1F1FC",
+    "status": "fully-qualified",
+    "emoji": "🇰🇼",
+    "version": "2.0",
+    "name": "flag: Kuwait"
+  },
+  {
+    "codepoint": "1F4EC",
+    "status": "fully-qualified",
+    "emoji": "📬",
+    "version": "0.7",
+    "name": "open mailbox with raised flag"
+  },
+  {
+    "codepoint": "1F1EA 1F1EA",
+    "status": "fully-qualified",
+    "emoji": "🇪🇪",
+    "version": "2.0",
+    "name": "flag: Estonia"
+  },
+  {
+    "codepoint": "1F468 200D 1F467 200D 1F467",
+    "status": "fully-qualified",
+    "emoji": "👨‍👧‍👧",
+    "version": "4.0",
+    "name": "family: man, girl, girl"
+  },
+  {
+    "codepoint": "1F3C2 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🏂🏾",
+    "version": "1.0",
+    "name": "snowboarder: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F9CD 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🧍‍♀️",
+    "version": "12.0",
+    "name": "woman standing"
+  },
+  {
+    "codepoint": "1F468 1F3FD 200D 1F3A8",
+    "status": "fully-qualified",
+    "emoji": "👨🏽‍🎨",
+    "version": "4.0",
+    "name": "man artist: medium skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FC 200D 1F37C",
+    "status": "fully-qualified",
+    "emoji": "👩🏼‍🍼",
+    "version": "13.0",
+    "name": "woman feeding baby: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F9D7 1F3FD 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🧗🏽‍♀️",
+    "version": "5.0",
+    "name": "woman climbing: medium skin tone"
+  },
+  {
+    "codepoint": "1F468 1F3FB 200D 2695 FE0F",
+    "status": "fully-qualified",
+    "emoji": "👨🏻‍⚕️",
+    "version": "4.0",
+    "name": "man health worker: light skin tone"
+  },
+  {
+    "codepoint": "1F647 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🙇🏾",
+    "version": "1.0",
+    "name": "person bowing: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F93D 1F3FC 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🤽🏼‍♀️",
+    "version": "4.0",
+    "name": "woman playing water polo: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F937 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🤷🏽",
+    "version": "3.0",
+    "name": "person shrugging: medium skin tone"
+  },
+  {
+    "codepoint": "26F9 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "⛹🏽",
+    "version": "2.0",
+    "name": "person bouncing ball: medium skin tone"
+  },
+  {
+    "codepoint": "1F3CC 1F3FB 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🏌🏻‍♀️",
+    "version": "4.0",
+    "name": "woman golfing: light skin tone"
+  },
+  {
+    "codepoint": "1FA9E",
+    "status": "fully-qualified",
+    "emoji": "🪞",
+    "version": "13.0",
+    "name": "mirror"
+  },
+  {
+    "codepoint": "1F487 1F3FF 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "💇🏿‍♂️",
+    "version": "4.0",
+    "name": "man getting haircut: dark skin tone"
+  },
+  {
+    "codepoint": "1F468 200D 1F9B0",
+    "status": "fully-qualified",
+    "emoji": "👨‍🦰",
+    "version": "11.0",
+    "name": "man: red hair"
+  },
+  {
+    "codepoint": "1FABA",
+    "status": "fully-qualified",
+    "emoji": "🪺",
+    "version": "14.0",
+    "name": "nest with eggs"
+  },
+  {
+    "codepoint": "26C4",
+    "status": "fully-qualified",
+    "emoji": "⛄",
+    "version": "0.6",
+    "name": "snowman without snow"
+  },
+  {
+    "codepoint": "1F468 1F3FE 200D 1F373",
+    "status": "fully-qualified",
+    "emoji": "👨🏾‍🍳",
+    "version": "4.0",
+    "name": "man cook: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F93D 1F3FC 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🤽🏼‍♂️",
+    "version": "4.0",
+    "name": "man playing water polo: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F645 1F3FB",
+    "status": "fully-qualified",
+    "emoji": "🙅🏻",
+    "version": "1.0",
+    "name": "person gesturing NO: light skin tone"
+  },
+  {
+    "codepoint": "1F579 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🕹️",
+    "version": "0.7",
+    "name": "joystick"
+  },
+  {
+    "codepoint": "1F468 1F3FC 200D 1F9AF 200D 27A1 FE0F",
+    "status": "fully-qualified",
+    "emoji": "👨🏼‍🦯‍➡️",
+    "version": "15.1",
+    "name": "man with white cane facing right: medium-light skin tone"
+  },
+  {
+    "codepoint": "26A7 FE0F",
+    "status": "fully-qualified",
+    "emoji": "⚧️",
+    "version": "13.0",
+    "name": "transgender symbol"
+  },
+  {
+    "codepoint": "262E FE0F",
+    "status": "fully-qualified",
+    "emoji": "☮️",
+    "version": "1.0",
+    "name": "peace symbol"
+  },
+  {
+    "codepoint": "26F9 1F3FC 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "⛹🏼‍♀️",
+    "version": "4.0",
+    "name": "woman bouncing ball: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F39E FE0F",
+    "status": "fully-qualified",
+    "emoji": "🎞️",
+    "version": "0.7",
+    "name": "film frames"
+  },
+  {
+    "codepoint": "1F934 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🤴🏾",
+    "version": "3.0",
+    "name": "prince: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F475 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "👵🏿",
+    "version": "1.0",
+    "name": "old woman: dark skin tone"
+  },
+  {
+    "codepoint": "1F468 1F3FE 200D 1F9B1",
+    "status": "fully-qualified",
+    "emoji": "👨🏾‍🦱",
+    "version": "11.0",
+    "name": "man: medium-dark skin tone, curly hair"
+  },
+  {
+    "codepoint": "1F9B8 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🦸‍♀️",
+    "version": "11.0",
+    "name": "woman superhero"
+  },
+  {
+    "codepoint": "1F9D1 1F3FF 200D 1F9AF",
+    "status": "fully-qualified",
+    "emoji": "🧑🏿‍🦯",
+    "version": "12.1",
+    "name": "person with white cane: dark skin tone"
+  },
+  {
+    "codepoint": "1F645 1F3FF",
+    "status": "fully-qualified",
+    "emoji": "🙅🏿",
+    "version": "1.0",
+    "name": "person gesturing NO: dark skin tone"
+  },
+  {
+    "codepoint": "1F9B9 1F3FC 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🦹🏼‍♀️",
+    "version": "11.0",
+    "name": "woman supervillain: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F9D1 1F3FC 200D 2695 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🧑🏼‍⚕️",
+    "version": "12.1",
+    "name": "health worker: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F4AE",
+    "status": "fully-qualified",
+    "emoji": "💮",
+    "version": "0.6",
+    "name": "white flower"
+  },
+  {
+    "codepoint": "303D FE0F",
+    "status": "fully-qualified",
+    "emoji": "〽️",
+    "version": "0.6",
+    "name": "part alternation mark"
+  },
+  {
+    "codepoint": "1F3CB 1F3FD 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🏋🏽‍♂️",
+    "version": "4.0",
+    "name": "man lifting weights: medium skin tone"
+  },
+  {
+    "codepoint": "1F9D1 1F3FD 200D 1F680",
+    "status": "fully-qualified",
+    "emoji": "🧑🏽‍🚀",
+    "version": "12.1",
+    "name": "astronaut: medium skin tone"
+  },
+  {
+    "codepoint": "1F6B4 1F3FB 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🚴🏻‍♀️",
+    "version": "4.0",
+    "name": "woman biking: light skin tone"
+  },
+  {
+    "codepoint": "1F3CA 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🏊‍♂️",
+    "version": "4.0",
+    "name": "man swimming"
+  },
+  {
+    "codepoint": "1F930 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🤰🏽",
+    "version": "3.0",
+    "name": "pregnant woman: medium skin tone"
+  },
+  {
+    "codepoint": "1F6B6 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🚶🏽",
+    "version": "1.0",
+    "name": "person walking: medium skin tone"
+  },
+  {
+    "codepoint": "1F234",
+    "status": "fully-qualified",
+    "emoji": "🈴",
+    "version": "0.6",
+    "name": "Japanese “passing grade” button"
+  },
+  {
+    "codepoint": "1F64D 1F3FB 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🙍🏻‍♂️",
+    "version": "4.0",
+    "name": "man frowning: light skin tone"
+  },
+  {
+    "codepoint": "26B0 FE0F",
+    "status": "fully-qualified",
+    "emoji": "⚰️",
+    "version": "1.0",
+    "name": "coffin"
+  },
+  {
+    "codepoint": "274E",
+    "status": "fully-qualified",
+    "emoji": "❎",
+    "version": "0.6",
+    "name": "cross mark button"
+  },
+  {
+    "codepoint": "1F46E 1F3FB",
+    "status": "fully-qualified",
+    "emoji": "👮🏻",
+    "version": "1.0",
+    "name": "police officer: light skin tone"
+  },
+  {
+    "codepoint": "1F300",
+    "status": "fully-qualified",
+    "emoji": "🌀",
+    "version": "0.6",
+    "name": "cyclone"
+  },
+  {
+    "codepoint": "1F9DB 1F3FD 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🧛🏽‍♂️",
+    "version": "5.0",
+    "name": "man vampire: medium skin tone"
+  },
+  {
+    "codepoint": "1F468 200D 1F680",
+    "status": "fully-qualified",
+    "emoji": "👨‍🚀",
+    "version": "4.0",
+    "name": "man astronaut"
+  },
+  {
+    "codepoint": "1F34E",
+    "status": "fully-qualified",
+    "emoji": "🍎",
+    "version": "0.6",
+    "name": "red apple"
+  },
+  {
+    "codepoint": "1F93D 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🤽‍♀️",
+    "version": "4.0",
+    "name": "woman playing water polo"
+  },
+  {
+    "codepoint": "1F6B6 1F3FD 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🚶🏽‍♀️",
+    "version": "4.0",
+    "name": "woman walking: medium skin tone"
+  },
+  {
+    "codepoint": "0039 FE0F 20E3",
+    "status": "fully-qualified",
+    "emoji": "9️⃣",
+    "version": "0.6",
+    "name": "keycap: 9"
+  },
+  {
+    "codepoint": "1F453",
+    "status": "fully-qualified",
+    "emoji": "👓",
+    "version": "0.6",
+    "name": "glasses"
+  },
+  {
+    "codepoint": "1F47C 1F3FC",
+    "status": "fully-qualified",
+    "emoji": "👼🏼",
+    "version": "1.0",
+    "name": "baby angel: medium-light skin tone"
+  },
+  {
+    "codepoint": "1F483 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "💃🏾",
+    "version": "1.0",
+    "name": "woman dancing: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F9D1 1F3FE 200D 1F9B1",
+    "status": "fully-qualified",
+    "emoji": "🧑🏾‍🦱",
+    "version": "12.1",
+    "name": "person: medium-dark skin tone, curly hair"
+  },
+  {
+    "codepoint": "1F9B8 1F3FF 200D 2640 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🦸🏿‍♀️",
+    "version": "11.0",
+    "name": "woman superhero: dark skin tone"
+  },
+  {
+    "codepoint": "1F441 FE0F",
+    "status": "fully-qualified",
+    "emoji": "👁️",
+    "version": "0.7",
+    "name": "eye"
+  },
+  {
+    "codepoint": "1F3C3 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🏃🏾",
+    "version": "1.0",
+    "name": "person running: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F469 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F468 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "👩🏼‍❤️‍💋‍👨🏾",
+    "version": "13.1",
+    "name": "kiss: woman, man, medium-light skin tone, medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F6B6 200D 2642 FE0F",
+    "status": "fully-qualified",
+    "emoji": "🚶‍♂️",
+    "version": "4.0",
+    "name": "man walking"
+  },
+  {
+    "codepoint": "1F9D3 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🧓🏾",
+    "version": "5.0",
+    "name": "older person: medium-dark skin tone"
+  },
+  {
+    "codepoint": "1FAC3 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🫃🏽",
+    "version": "14.0",
+    "name": "pregnant man: medium skin tone"
+  },
+  {
+    "codepoint": "1F48D",
+    "status": "fully-qualified",
+    "emoji": "💍",
+    "version": "0.6",
+    "name": "ring"
+  },
+  {
+    "codepoint": "1F3C3",
+    "status": "fully-qualified",
+    "emoji": "🏃",
+    "version": "0.6",
+    "name": "person running"
+  },
+  {
+    "codepoint": "1FAC4 1F3FD",
+    "status": "fully-qualified",
+    "emoji": "🫄🏽",
+    "version": "14.0",
+    "name": "pregnant person: medium skin tone"
+  },
+  {
+    "codepoint": "26EA",
+    "status": "fully-qualified",
+    "emoji": "⛪",
+    "version": "0.6",
+    "name": "church"
+  },
+  {
+    "codepoint": "1F9D1 1F3FC 200D 2764 FE0F 200D 1F48B 200D 1F9D1 1F3FE",
+    "status": "fully-qualified",
+    "emoji": "🧑🏼‍❤️‍💋‍🧑🏾",
+    "version": "13.1",
+    "name": "kiss: person, person, medium-light skin tone, medium-dark skin tone"
+  },
+  {
+    "codepoint": "1F600",
+    "status": "fully-qualified",
+    "emoji": "😀",
+    "version": "1.0",
+    "name": "grinning face"
+  },
+  {
+    "codepoint": "1F603",
+    "status": "fully-qualified",
+    "emoji": "😃",
+    "version": "0.6",
+    "name": "grinning face with big eyes"
+  },
+  {
+    "codepoint": "1F315",
+    "status": "fully-qualified",
+    "emoji": "🌕",
+    "version": "0.6",
+    "name": "full moon"
+  },
+  {
+    "codepoint": "1F316",
+    "status": "fully-qualified",
+    "emoji": "🌖",
+    "version": "1.0",
+    "name": "waning gibbous moon"
+  },
+  {
+    "codepoint": "2764 FE0F",
+    "status": "fully-qualified",
+    "emoji": "❤️",
+    "version": "0.6",
+    "name": "red heart"
+  },
+  {
+    "codepoint": "1F9E1",
+    "status": "fully-qualified",
+    "emoji": "🧡",
+    "version": "5.0",
+    "name": "orange heart"
+  },
+  {
+    "codepoint": "1F49B",
+    "status": "fully-qualified",
+    "emoji": "💛",
+    "version": "0.6",
+    "name": "yellow heart"
+  },
+  {
+    "codepoint": "1F431",
+    "status": "fully-qualified",
+    "emoji": "🐱",
+    "version": "0.6",
+    "name": "cat face"
+  },
+  {
+    "codepoint": "1F408",
+    "status": "fully-qualified",
+    "emoji": "🐈",
+    "version": "0.7",
+    "name": "cat"
+  }
+]
