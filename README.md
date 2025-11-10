@@ -4,16 +4,34 @@ BIP-😸 is an **informational BIP** that explores encoding Bitcoin addresses as
 
 ## 📋 Project Status
 
-**Phase**: Research and Planning
+**Phase**: Visual Analysis Complete ✅
 **Type**: Informational BIP (Educational/Exploratory)
 **Goal**: Investigate feasibility and document challenges of emoji-based address encoding
 
+### Recent Achievements
+
+✅ Analyzed 3,781 emoji from Unicode 16.0
+✅ Selected 58 most visually distinct emoji (distinctiveness: 0.356-0.382)
+✅ Identified 127 confusable pairs to avoid
+✅ Created optimized Base58→Emoji mapping
+✅ Built reference encoder/decoder with Base58Check validation
+✅ Validated with real Bitcoin addresses
+
+**Next:** Cross-platform rendering validation
+
 ## 📚 Documentation
 
+- **[EMOJI_SELECTION_REPORT.md](EMOJI_SELECTION_REPORT.md)** - Visual similarity analysis and final emoji selection
 - **[TODO.md](TODO.md)** - Comprehensive task breakdown with 8 development phases
 - **[BIP_REVIEW.md](BIP_REVIEW.md)** - Detailed analysis of strengths, weaknesses, and challenges
 
-**Note**: For parsing the emoji HTML table, see [this Stack Overflow guide](https://stackoverflow.com/questions/6325216/parse-html-table-to-python-list)
+### Key Files
+
+- **`emoji_codec.py`** - Reference encoder/decoder implementation
+- **`demo.py`** - Interactive demonstration of all features
+- **`visual_similarity.py`** - Perceptual hash-based similarity analyzer
+- **`base58_frequency.py`** - Character frequency analyzer for optimal mapping
+- **`data/base58_emoji_mapping.json`** - Final Base58→Emoji mapping table
 
 ## 🎯 Core Concept
 
@@ -23,9 +41,9 @@ Base58: 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 Emoji:  🏠🚗💰🎉🌟... (58 visually distinct emoji)
 ```
 
-**Example** (illustrative):
+**Example** (Satoshi's address from Genesis Block):
 - Standard: `1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa`
-- Emoji: `🏠🚗💰🎉🌟🎨🎭🎪🎬🎤🎧🎵🎸🎹🎺🎻🎼🎾🎿🏀🏈🏉🏊🏋️🎯🎰🎱🎲🎳🎮🎴🎵`
+- Emoji: `🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴🕸️🤫🍎🍏🥝🌸🤴🌸🍈🤚🫑🍈👱👦👊🍎🕸️👦🤴😶🐣`
 
 ## 🔬 Research Phases
 
@@ -93,7 +111,53 @@ Target platforms for consistency testing:
 
 ## 🚀 Quick Start
 
-_(Coming soon - after Phase 4 implementation)_
+### Installation
+
+```bash
+# Install dependencies
+uv pip install --system pillow numpy imagehash scikit-image requests beautifulsoup4
+```
+
+### Usage
+
+**Encode a Bitcoin address to emoji:**
+```bash
+python emoji_codec.py encode 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+
+**Decode an emoji address back to Base58:**
+```bash
+python emoji_codec.py decode '🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴🕸️🤫🍎🍏🥝🌸🤴🌸🍈🤚🫑🍈👱👦👊🍎🕸️👦🤴😶🐣'
+```
+
+**Scan and validate with checksum:**
+```bash
+python emoji_codec.py scan '🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴🕸️🤫🍎🍏🥝🌸🤴🌸🍈🤚🫑🍈👱👦👊🍎🕸️👦🤴😶🐣'
+```
+
+**Run interactive demo:**
+```bash
+python demo.py
+```
+
+### Example Output
+
+```
+📝 Encoding Base58 address...
+   Input: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
+✅ Encoding successful!
+
+   Base58: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+   Emoji:  🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴🕸️🤫🍎🍏🥝🌸🤴🌸🍈🤚🫑🍈👱👦👊🍎🕸️👦🤴😶🐣
+
+   Character mapping:
+     1 → 🧔  (person: beard)
+     A → 🤶  (Mrs. Claus)
+     1 → 🧔  (person: beard)
+     z → 🐞  (lady beetle)
+     ...
+```
 
 ## 📜 License
 
@@ -113,11 +177,12 @@ This is a research project. Contributions welcome for:
 | Document | Purpose |
 |----------|---------|
 | README.md | Project overview and quick start |
+| EMOJI_SELECTION_REPORT.md | Visual similarity analysis results |
 | TODO.md | Detailed task breakdown (8 phases) |
 | BIP_REVIEW.md | Critical analysis and recommendations |
 
 ---
 
-**Status**: 🔬 Research Phase
-**Last Updated**: 2025-11-05
+**Status**: ✅ Phase 2 Complete - Visual Analysis & Reference Implementation
+**Last Updated**: 2025-11-09
 

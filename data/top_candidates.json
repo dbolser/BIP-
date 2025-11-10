@@ -1,0 +1,902 @@
+[
+  {
+    "emoji": "🧔",
+    "name": "person: beard",
+    "codepoint": "1F9D4",
+    "distinctiveness": 0.35587312370600416
+  },
+  {
+    "emoji": "🍊",
+    "name": "tangerine",
+    "codepoint": "1F34A",
+    "distinctiveness": 0.357814117494824
+  },
+  {
+    "emoji": "💮",
+    "name": "white flower",
+    "codepoint": "1F4AE",
+    "distinctiveness": 0.3578302924430642
+  },
+  {
+    "emoji": "🫅",
+    "name": "person with crown",
+    "codepoint": "1FAC5",
+    "distinctiveness": 0.3578626423395445
+  },
+  {
+    "emoji": "👧",
+    "name": "girl",
+    "codepoint": "1F467",
+    "distinctiveness": 0.3580890916149068
+  },
+  {
+    "emoji": "🤴",
+    "name": "prince",
+    "codepoint": "1F934",
+    "distinctiveness": 0.35910811335403725
+  },
+  {
+    "emoji": "🕸️",
+    "name": "spider web",
+    "codepoint": "1F578 FE0F",
+    "distinctiveness": 0.3593345626293996
+  },
+  {
+    "emoji": "🏵️",
+    "name": "rosette",
+    "codepoint": "1F3F5 FE0F",
+    "distinctiveness": 0.3602241847826087
+  },
+  {
+    "emoji": "🧑",
+    "name": "person",
+    "codepoint": "1F9D1",
+    "distinctiveness": 0.36032123447204967
+  },
+  {
+    "emoji": "👵",
+    "name": "old woman",
+    "codepoint": "1F475",
+    "distinctiveness": 0.3606609083850932
+  },
+  {
+    "emoji": "✊",
+    "name": "raised fist",
+    "codepoint": "270A",
+    "distinctiveness": 0.3612108566252588
+  },
+  {
+    "emoji": "👩",
+    "name": "woman",
+    "codepoint": "1F469",
+    "distinctiveness": 0.36179315476190477
+  },
+  {
+    "emoji": "👨",
+    "name": "man",
+    "codepoint": "1F468",
+    "distinctiveness": 0.36290922619047616
+  },
+  {
+    "emoji": "🧒",
+    "name": "child",
+    "codepoint": "1F9D2",
+    "distinctiveness": 0.36292540113871635
+  },
+  {
+    "emoji": "🍈",
+    "name": "melon",
+    "codepoint": "1F348",
+    "distinctiveness": 0.36362092391304346
+  },
+  {
+    "emoji": "🧓",
+    "name": "older person",
+    "codepoint": "1F9D3",
+    "distinctiveness": 0.3640738224637681
+  },
+  {
+    "emoji": "👲",
+    "name": "person with skullcap",
+    "codepoint": "1F472",
+    "distinctiveness": 0.36410617236024845
+  },
+  {
+    "emoji": "👴",
+    "name": "old man",
+    "codepoint": "1F474",
+    "distinctiveness": 0.36486639492753625
+  },
+  {
+    "emoji": "🥝",
+    "name": "kiwi fruit",
+    "codepoint": "1F95D",
+    "distinctiveness": 0.36506049430641824
+  },
+  {
+    "emoji": "🤶",
+    "name": "Mrs. Claus",
+    "codepoint": "1F936",
+    "distinctiveness": 0.366305965320911
+  },
+  {
+    "emoji": "🍎",
+    "name": "red apple",
+    "codepoint": "1F34E",
+    "distinctiveness": 0.3668559135610766
+  },
+  {
+    "emoji": "👱",
+    "name": "person: blond hair",
+    "codepoint": "1F471",
+    "distinctiveness": 0.3673411620082816
+  },
+  {
+    "emoji": "🐣",
+    "name": "hatching chick",
+    "codepoint": "1F423",
+    "distinctiveness": 0.3674705615942029
+  },
+  {
+    "emoji": "🖐️",
+    "name": "hand with fingers splayed",
+    "codepoint": "1F590 FE0F",
+    "distinctiveness": 0.36797198498964806
+  },
+  {
+    "emoji": "🍏",
+    "name": "green apple",
+    "codepoint": "1F34F",
+    "distinctiveness": 0.3682469591097309
+  },
+  {
+    "emoji": "👦",
+    "name": "boy",
+    "codepoint": "1F466",
+    "distinctiveness": 0.3684895833333333
+  },
+  {
+    "emoji": "🪲",
+    "name": "beetle",
+    "codepoint": "1FAB2",
+    "distinctiveness": 0.3690718814699793
+  },
+  {
+    "emoji": "✋",
+    "name": "raised hand",
+    "codepoint": "270B",
+    "distinctiveness": 0.37101287525879917
+  },
+  {
+    "emoji": "🐵",
+    "name": "monkey face",
+    "codepoint": "1F435",
+    "distinctiveness": 0.3712393245341615
+  },
+  {
+    "emoji": "🦪",
+    "name": "oyster",
+    "codepoint": "1F9AA",
+    "distinctiveness": 0.3715304736024845
+  },
+  {
+    "emoji": "🫑",
+    "name": "bell pepper",
+    "codepoint": "1FAD1",
+    "distinctiveness": 0.371578998447205
+  },
+  {
+    "emoji": "😶",
+    "name": "face without mouth",
+    "codepoint": "1F636",
+    "distinctiveness": 0.3718863224637681
+  },
+  {
+    "emoji": "🐶",
+    "name": "dog face",
+    "codepoint": "1F436",
+    "distinctiveness": 0.3731964932712215
+  },
+  {
+    "emoji": "👋",
+    "name": "waving hand",
+    "codepoint": "1F44B",
+    "distinctiveness": 0.37334206780538304
+  },
+  {
+    "emoji": "🍑",
+    "name": "peach",
+    "codepoint": "1F351",
+    "distinctiveness": 0.3734876423395445
+  },
+  {
+    "emoji": "🦔",
+    "name": "hedgehog",
+    "codepoint": "1F994",
+    "distinctiveness": 0.373633216873706
+  },
+  {
+    "emoji": "🐞",
+    "name": "lady beetle",
+    "codepoint": "1F41E",
+    "distinctiveness": 0.3736979166666667
+  },
+  {
+    "emoji": "🤚",
+    "name": "raised back of hand",
+    "codepoint": "1F91A",
+    "distinctiveness": 0.37402141563146996
+  },
+  {
+    "emoji": "🖖",
+    "name": "vulcan salute",
+    "codepoint": "1F596",
+    "distinctiveness": 0.37516983695652173
+  },
+  {
+    "emoji": "🫵",
+    "name": "index pointing at the viewer",
+    "codepoint": "1FAF5",
+    "distinctiveness": 0.37516983695652173
+  },
+  {
+    "emoji": "👸",
+    "name": "princess",
+    "codepoint": "1F478",
+    "distinctiveness": 0.37554186076604557
+  },
+  {
+    "emoji": "🍁",
+    "name": "maple leaf",
+    "codepoint": "1F341",
+    "distinctiveness": 0.37615650879917184
+  },
+  {
+    "emoji": "🤫",
+    "name": "shushing face",
+    "codepoint": "1F92B",
+    "distinctiveness": 0.3763344332298137
+  },
+  {
+    "emoji": "🌸",
+    "name": "cherry blossom",
+    "codepoint": "1F338",
+    "distinctiveness": 0.3765932324016563
+  },
+  {
+    "emoji": "🤲",
+    "name": "palms up together",
+    "codepoint": "1F932",
+    "distinctiveness": 0.37741815476190477
+  },
+  {
+    "emoji": "🍐",
+    "name": "pear",
+    "codepoint": "1F350",
+    "distinctiveness": 0.3781622023809524
+  },
+  {
+    "emoji": "👶",
+    "name": "baby",
+    "codepoint": "1F476",
+    "distinctiveness": 0.37948854813664595
+  },
+  {
+    "emoji": "🌳",
+    "name": "deciduous tree",
+    "codepoint": "1F333",
+    "distinctiveness": 0.37950472308488614
+  },
+  {
+    "emoji": "🦻",
+    "name": "ear with hearing aid",
+    "codepoint": "1F9BB",
+    "distinctiveness": 0.3795208980331263
+  },
+  {
+    "emoji": "🙈",
+    "name": "see-no-evil monkey",
+    "codepoint": "1F648",
+    "distinctiveness": 0.37955324792960665
+  },
+  {
+    "emoji": "🫥",
+    "name": "dotted line face",
+    "codepoint": "1FAE5",
+    "distinctiveness": 0.37963412267080743
+  },
+  {
+    "emoji": "👏",
+    "name": "clapping hands",
+    "codepoint": "1F44F",
+    "distinctiveness": 0.37982822204968947
+  },
+  {
+    "emoji": "👂",
+    "name": "ear",
+    "codepoint": "1F442",
+    "distinctiveness": 0.37982822204968947
+  },
+  {
+    "emoji": "🪴",
+    "name": "potted plant",
+    "codepoint": "1FAB4",
+    "distinctiveness": 0.37995762163561075
+  },
+  {
+    "emoji": "😦",
+    "name": "frowning face with open mouth",
+    "codepoint": "1F626",
+    "distinctiveness": 0.3807987189440994
+  },
+  {
+    "emoji": "🫰",
+    "name": "hand with index finger and thumb crossed",
+    "codepoint": "1FAF0",
+    "distinctiveness": 0.38123544254658387
+  },
+  {
+    "emoji": "🗯️",
+    "name": "right anger bubble",
+    "codepoint": "1F5EF FE0F",
+    "distinctiveness": 0.3814942417184265
+  },
+  {
+    "emoji": "👊",
+    "name": "oncoming fist",
+    "codepoint": "1F44A",
+    "distinctiveness": 0.38214123964803315
+  },
+  {
+    "emoji": "🌽",
+    "name": "ear of corn",
+    "codepoint": "1F33D",
+    "distinctiveness": 0.3822544642857143
+  },
+  {
+    "emoji": "🦍",
+    "name": "gorilla",
+    "codepoint": "1F98D",
+    "distinctiveness": 0.3822868141821946
+  },
+  {
+    "emoji": "😷",
+    "name": "face with medical mask",
+    "codepoint": "1F637",
+    "distinctiveness": 0.3827073628364389
+  },
+  {
+    "emoji": "🤭",
+    "name": "face with hand over mouth",
+    "codepoint": "1F92D",
+    "distinctiveness": 0.38298233695652173
+  },
+  {
+    "emoji": "🤖",
+    "name": "robot",
+    "codepoint": "1F916",
+    "distinctiveness": 0.3829985119047619
+  },
+  {
+    "emoji": "🐥",
+    "name": "front-facing baby chick",
+    "codepoint": "1F425",
+    "distinctiveness": 0.3829985119047619
+  },
+  {
+    "emoji": "🧠",
+    "name": "brain",
+    "codepoint": "1F9E0",
+    "distinctiveness": 0.38306321169772256
+  },
+  {
+    "emoji": "🥥",
+    "name": "coconut",
+    "codepoint": "1F965",
+    "distinctiveness": 0.38374255952380953
+  },
+  {
+    "emoji": "💨",
+    "name": "dashing away",
+    "codepoint": "1F4A8",
+    "distinctiveness": 0.38382343426501037
+  },
+  {
+    "emoji": "😐",
+    "name": "neutral face",
+    "codepoint": "1F610",
+    "distinctiveness": 0.38453513198757766
+  },
+  {
+    "emoji": "😗",
+    "name": "kissing face",
+    "codepoint": "1F617",
+    "distinctiveness": 0.384567481884058
+  },
+  {
+    "emoji": "🍅",
+    "name": "tomato",
+    "codepoint": "1F345",
+    "distinctiveness": 0.38500420548654246
+  },
+  {
+    "emoji": "😕",
+    "name": "confused face",
+    "codepoint": "1F615",
+    "distinctiveness": 0.3850203804347826
+  },
+  {
+    "emoji": "🫢",
+    "name": "face with open eyes and hand over mouth",
+    "codepoint": "1FAE2",
+    "distinctiveness": 0.38544092908902694
+  },
+  {
+    "emoji": "🙊",
+    "name": "speak-no-evil monkey",
+    "codepoint": "1F64A",
+    "distinctiveness": 0.3855865036231884
+  },
+  {
+    "emoji": "🫱",
+    "name": "rightwards hand",
+    "codepoint": "1FAF1",
+    "distinctiveness": 0.3856835533126294
+  },
+  {
+    "emoji": "👆",
+    "name": "backhand index pointing up",
+    "codepoint": "1F446",
+    "distinctiveness": 0.3860232272256729
+  },
+  {
+    "emoji": "🪹",
+    "name": "empty nest",
+    "codepoint": "1FAB9",
+    "distinctiveness": 0.386039402173913
+  },
+  {
+    "emoji": "🦁",
+    "name": "lion",
+    "codepoint": "1F981",
+    "distinctiveness": 0.38607175207039335
+  },
+  {
+    "emoji": "🫤",
+    "name": "face with diagonal mouth",
+    "codepoint": "1FAE4",
+    "distinctiveness": 0.3862011516563147
+  },
+  {
+    "emoji": "🍍",
+    "name": "pineapple",
+    "codepoint": "1F34D",
+    "distinctiveness": 0.3864599508281574
+  },
+  {
+    "emoji": "🤥",
+    "name": "lying face",
+    "codepoint": "1F925",
+    "distinctiveness": 0.3865731754658385
+  },
+  {
+    "emoji": "💜",
+    "name": "purple heart",
+    "codepoint": "1F49C",
+    "distinctiveness": 0.3871716485507246
+  },
+  {
+    "emoji": "🫐",
+    "name": "blueberries",
+    "codepoint": "1FAD0",
+    "distinctiveness": 0.387203998447205
+  },
+  {
+    "emoji": "🥳",
+    "name": "partying face",
+    "codepoint": "1F973",
+    "distinctiveness": 0.3874627976190476
+  },
+  {
+    "emoji": "🪺",
+    "name": "nest with eggs",
+    "codepoint": "1FABA",
+    "distinctiveness": 0.3880936206004141
+  },
+  {
+    "emoji": "🖤",
+    "name": "black heart",
+    "codepoint": "1F5A4",
+    "distinctiveness": 0.38825537008281574
+  },
+  {
+    "emoji": "🤔",
+    "name": "thinking face",
+    "codepoint": "1F914",
+    "distinctiveness": 0.3883847696687371
+  },
+  {
+    "emoji": "❤️",
+    "name": "red heart",
+    "codepoint": "2764 FE0F",
+    "distinctiveness": 0.38870826863354035
+  },
+  {
+    "emoji": "🤦",
+    "name": "person facepalming",
+    "codepoint": "1F926",
+    "distinctiveness": 0.38872444358178054
+  },
+  {
+    "emoji": "🤘",
+    "name": "sign of the horns",
+    "codepoint": "1F918",
+    "distinctiveness": 0.38890236801242234
+  },
+  {
+    "emoji": "🍋",
+    "name": "lemon",
+    "codepoint": "1F34B",
+    "distinctiveness": 0.38899941770186336
+  },
+  {
+    "emoji": "🧡",
+    "name": "orange heart",
+    "codepoint": "1F9E1",
+    "distinctiveness": 0.3890802924430642
+  },
+  {
+    "emoji": "💙",
+    "name": "blue heart",
+    "codepoint": "1F499",
+    "distinctiveness": 0.3890964673913043
+  },
+  {
+    "emoji": "🐱",
+    "name": "cat face",
+    "codepoint": "1F431",
+    "distinctiveness": 0.38914499223602483
+  },
+  {
+    "emoji": "🐓",
+    "name": "rooster",
+    "codepoint": "1F413",
+    "distinctiveness": 0.38924204192546585
+  },
+  {
+    "emoji": "💚",
+    "name": "green heart",
+    "codepoint": "1F49A",
+    "distinctiveness": 0.38943614130434784
+  },
+  {
+    "emoji": "🦆",
+    "name": "duck",
+    "codepoint": "1F986",
+    "distinctiveness": 0.3895978907867495
+  },
+  {
+    "emoji": "🍓",
+    "name": "strawberry",
+    "codepoint": "1F353",
+    "distinctiveness": 0.38985668995859213
+  },
+  {
+    "emoji": "👹",
+    "name": "ogre",
+    "codepoint": "1F479",
+    "distinctiveness": 0.3898728649068323
+  },
+  {
+    "emoji": "😓",
+    "name": "downcast face with sweat",
+    "codepoint": "1F613",
+    "distinctiveness": 0.39011548913043476
+  },
+  {
+    "emoji": "🐫",
+    "name": "two-hump camel",
+    "codepoint": "1F42B",
+    "distinctiveness": 0.39060073757763975
+  },
+  {
+    "emoji": "😯",
+    "name": "hushed face",
+    "codepoint": "1F62F",
+    "distinctiveness": 0.3909565864389234
+  },
+  {
+    "emoji": "🫲",
+    "name": "leftwards hand",
+    "codepoint": "1FAF2",
+    "distinctiveness": 0.39129626035196685
+  },
+  {
+    "emoji": "🤎",
+    "name": "brown heart",
+    "codepoint": "1F90E",
+    "distinctiveness": 0.39131243530020704
+  },
+  {
+    "emoji": "🤍",
+    "name": "white heart",
+    "codepoint": "1F90D",
+    "distinctiveness": 0.39140948498964806
+  },
+  {
+    "emoji": "🤐",
+    "name": "zipper-mouth face",
+    "codepoint": "1F910",
+    "distinctiveness": 0.391506534679089
+  },
+  {
+    "emoji": "🤕",
+    "name": "face with head-bandage",
+    "codepoint": "1F915",
+    "distinctiveness": 0.3916521092132505
+  },
+  {
+    "emoji": "🐏",
+    "name": "ram",
+    "codepoint": "1F40F",
+    "distinctiveness": 0.391700634057971
+  },
+  {
+    "emoji": "🖕",
+    "name": "middle finger",
+    "codepoint": "1F595",
+    "distinctiveness": 0.39173298395445133
+  },
+  {
+    "emoji": "🐑",
+    "name": "ewe",
+    "codepoint": "1F411",
+    "distinctiveness": 0.3917491589026915
+  },
+  {
+    "emoji": "💛",
+    "name": "yellow heart",
+    "codepoint": "1F49B",
+    "distinctiveness": 0.39176533385093165
+  },
+  {
+    "emoji": "🌵",
+    "name": "cactus",
+    "codepoint": "1F335",
+    "distinctiveness": 0.39179768374741203
+  },
+  {
+    "emoji": "🙂",
+    "name": "slightly smiling face",
+    "codepoint": "1F642",
+    "distinctiveness": 0.3919270833333333
+  },
+  {
+    "emoji": "🥔",
+    "name": "potato",
+    "codepoint": "1F954",
+    "distinctiveness": 0.3919756081780538
+  },
+  {
+    "emoji": "🐤",
+    "name": "baby chick",
+    "codepoint": "1F424",
+    "distinctiveness": 0.39204030797101447
+  },
+  {
+    "emoji": "🤏",
+    "name": "pinching hand",
+    "codepoint": "1F90F",
+    "distinctiveness": 0.39207265786749484
+  },
+  {
+    "emoji": "🤝",
+    "name": "handshake",
+    "codepoint": "1F91D",
+    "distinctiveness": 0.3922182324016563
+  },
+  {
+    "emoji": "🗨️",
+    "name": "left speech bubble",
+    "codepoint": "1F5E8 FE0F",
+    "distinctiveness": 0.3924608566252588
+  },
+  {
+    "emoji": "✌️",
+    "name": "victory hand",
+    "codepoint": "270C FE0F",
+    "distinctiveness": 0.39247703157349895
+  },
+  {
+    "emoji": "🌼",
+    "name": "blossom",
+    "codepoint": "1F33C",
+    "distinctiveness": 0.39254173136645965
+  },
+  {
+    "emoji": "🫡",
+    "name": "saluting face",
+    "codepoint": "1FAE1",
+    "distinctiveness": 0.39257408126293997
+  },
+  {
+    "emoji": "😙",
+    "name": "kissing face with smiling eyes",
+    "codepoint": "1F619",
+    "distinctiveness": 0.39276818064182195
+  },
+  {
+    "emoji": "🚴",
+    "name": "person biking",
+    "codepoint": "1F6B4",
+    "distinctiveness": 0.39318872929606624
+  },
+  {
+    "emoji": "😧",
+    "name": "anguished face",
+    "codepoint": "1F627",
+    "distinctiveness": 0.39322107919254656
+  },
+  {
+    "emoji": "🪳",
+    "name": "cockroach",
+    "codepoint": "1FAB3",
+    "distinctiveness": 0.39346370341614906
+  },
+  {
+    "emoji": "🦅",
+    "name": "eagle",
+    "codepoint": "1F985",
+    "distinctiveness": 0.39380337732919257
+  },
+  {
+    "emoji": "🐡",
+    "name": "blowfish",
+    "codepoint": "1F421",
+    "distinctiveness": 0.3938195522774327
+  },
+  {
+    "emoji": "😨",
+    "name": "fearful face",
+    "codepoint": "1F628",
+    "distinctiveness": 0.3938357272256729
+  },
+  {
+    "emoji": "🦹",
+    "name": "supervillain",
+    "codepoint": "1F9B9",
+    "distinctiveness": 0.39412687629399584
+  },
+  {
+    "emoji": "🙄",
+    "name": "face with rolling eyes",
+    "codepoint": "1F644",
+    "distinctiveness": 0.39440185041407866
+  },
+  {
+    "emoji": "🧜",
+    "name": "merperson",
+    "codepoint": "1F9DC",
+    "distinctiveness": 0.39490327380952384
+  },
+  {
+    "emoji": "🐪",
+    "name": "camel",
+    "codepoint": "1F42A",
+    "distinctiveness": 0.39490327380952384
+  },
+  {
+    "emoji": "🤷",
+    "name": "person shrugging",
+    "codepoint": "1F937",
+    "distinctiveness": 0.3954370471014493
+  },
+  {
+    "emoji": "😮",
+    "name": "face with open mouth",
+    "codepoint": "1F62E",
+    "distinctiveness": 0.3956634963768116
+  },
+  {
+    "emoji": "😑",
+    "name": "expressionless face",
+    "codepoint": "1F611",
+    "distinctiveness": 0.3957443711180124
+  },
+  {
+    "emoji": "🙉",
+    "name": "hear-no-evil monkey",
+    "codepoint": "1F649",
+    "distinctiveness": 0.39580907091097306
+  },
+  {
+    "emoji": "👅",
+    "name": "tongue",
+    "codepoint": "1F445",
+    "distinctiveness": 0.39610021997929606
+  },
+  {
+    "emoji": "🤬",
+    "name": "face with symbols on mouth",
+    "codepoint": "1F92C",
+    "distinctiveness": 0.3961810947204969
+  },
+  {
+    "emoji": "🦠",
+    "name": "microbe",
+    "codepoint": "1F9A0",
+    "distinctiveness": 0.3961972696687371
+  },
+  {
+    "emoji": "🤵",
+    "name": "person in tuxedo",
+    "codepoint": "1F935",
+    "distinctiveness": 0.3964237189440994
+  },
+  {
+    "emoji": "🤌",
+    "name": "pinched fingers",
+    "codepoint": "1F90C",
+    "distinctiveness": 0.39648841873706003
+  },
+  {
+    "emoji": "☹️",
+    "name": "frowning face",
+    "codepoint": "2639 FE0F",
+    "distinctiveness": 0.3965045936853002
+  },
+  {
+    "emoji": "🙅",
+    "name": "person gesturing NO",
+    "codepoint": "1F645",
+    "distinctiveness": 0.39653694358178054
+  },
+  {
+    "emoji": "🤗",
+    "name": "smiling face with open hands",
+    "codepoint": "1F917",
+    "distinctiveness": 0.39671486801242234
+  },
+  {
+    "emoji": "💋",
+    "name": "kiss mark",
+    "codepoint": "1F48B",
+    "distinctiveness": 0.3967310429606625
+  },
+  {
+    "emoji": "🦇",
+    "name": "bat",
+    "codepoint": "1F987",
+    "distinctiveness": 0.39765301501035194
+  },
+  {
+    "emoji": "🐩",
+    "name": "poodle",
+    "codepoint": "1F429",
+    "distinctiveness": 0.39794416407867494
+  },
+  {
+    "emoji": "🤠",
+    "name": "cowboy hat face",
+    "codepoint": "1F920",
+    "distinctiveness": 0.3980735636645963
+  },
+  {
+    "emoji": "👳",
+    "name": "person wearing turban",
+    "codepoint": "1F473",
+    "distinctiveness": 0.39813826345755693
+  },
+  {
+    "emoji": "🐺",
+    "name": "wolf",
+    "codepoint": "1F43A",
+    "distinctiveness": 0.3982514880952381
+  },
+  {
+    "emoji": "🙁",
+    "name": "slightly frowning face",
+    "codepoint": "1F641",
+    "distinctiveness": 0.39841323757763975
+  }
+]

@@ -1,0 +1,415 @@
+{
+  "base58_alphabet": "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",
+  "mapping_strategy": "steganographic",
+  "description": "Common Base58 characters mapped to common emoji for hiding addresses in text",
+  "mapping": {
+    "1": {
+      "emoji": "😂",
+      "name": "face with tears of joy",
+      "usage_tier": 1,
+      "priority": 1
+    },
+    "3": {
+      "emoji": "❤️",
+      "name": "red heart",
+      "usage_tier": 1,
+      "priority": 2
+    },
+    "x": {
+      "emoji": "🥰",
+      "name": "smiling face with hearts",
+      "usage_tier": 1,
+      "priority": 3
+    },
+    "p": {
+      "emoji": "😊",
+      "name": "smiling face with smiling eyes",
+      "usage_tier": 1,
+      "priority": 4
+    },
+    "u": {
+      "emoji": "🎉",
+      "name": "party popper",
+      "usage_tier": 2,
+      "priority": 5
+    },
+    "b": {
+      "emoji": "😭",
+      "name": "loudly crying face",
+      "usage_tier": 2,
+      "priority": 6
+    },
+    "y": {
+      "emoji": "😘",
+      "name": "face blowing a kiss",
+      "usage_tier": 2,
+      "priority": 7
+    },
+    "z": {
+      "emoji": "🥺",
+      "name": "pleading face",
+      "usage_tier": 2,
+      "priority": 8
+    },
+    "e": {
+      "emoji": "🤣",
+      "name": "rolling on the floor laughing",
+      "usage_tier": 2,
+      "priority": 9
+    },
+    "f": {
+      "emoji": "✨",
+      "name": "sparkles",
+      "usage_tier": 2,
+      "priority": 10
+    },
+    "i": {
+      "emoji": "🙏",
+      "name": "folded hands",
+      "usage_tier": 2,
+      "priority": 11
+    },
+    "F": {
+      "emoji": "😁",
+      "name": "beaming face with smiling eyes",
+      "usage_tier": 2,
+      "priority": 12
+    },
+    "X": {
+      "emoji": "👍",
+      "name": "thumbs up",
+      "usage_tier": 3,
+      "priority": 13
+    },
+    "Y": {
+      "emoji": "🔥",
+      "name": "fire",
+      "usage_tier": 3,
+      "priority": 14
+    },
+    "H": {
+      "emoji": "💪",
+      "name": "flexed biceps",
+      "usage_tier": 3,
+      "priority": 15
+    },
+    "J": {
+      "emoji": "🌟",
+      "name": "glowing star",
+      "usage_tier": 3,
+      "priority": 16
+    },
+    "Z": {
+      "emoji": "😉",
+      "name": "winking face",
+      "usage_tier": 3,
+      "priority": 17
+    },
+    "r": {
+      "emoji": "🤗",
+      "name": "hugging face",
+      "usage_tier": 3,
+      "priority": 18
+    },
+    "L": {
+      "emoji": "😎",
+      "name": "smiling face with sunglasses",
+      "usage_tier": 3,
+      "priority": 19
+    },
+    "n": {
+      "emoji": "💯",
+      "name": "hundred points",
+      "usage_tier": 3,
+      "priority": 20
+    },
+    "9": {
+      "emoji": "🙌",
+      "name": "raising hands",
+      "usage_tier": 3,
+      "priority": 21
+    },
+    "P": {
+      "emoji": "🤔",
+      "name": "thinking face",
+      "usage_tier": 4,
+      "priority": 22
+    },
+    "A": {
+      "emoji": "😌",
+      "name": "relieved face",
+      "usage_tier": 4,
+      "priority": 23
+    },
+    "D": {
+      "emoji": "🎊",
+      "name": "confetti ball",
+      "usage_tier": 4,
+      "priority": 24
+    },
+    "m": {
+      "emoji": "😄",
+      "name": "grinning face with smiling eyes",
+      "usage_tier": 4,
+      "priority": 25
+    },
+    "a": {
+      "emoji": "🤷",
+      "name": "person shrugging",
+      "usage_tier": 4,
+      "priority": 26
+    },
+    "c": {
+      "emoji": "🎈",
+      "name": "balloon",
+      "usage_tier": 4,
+      "priority": 27
+    },
+    "M": {
+      "emoji": "🥳",
+      "name": "partying face",
+      "usage_tier": 4,
+      "priority": 28
+    },
+    "v": {
+      "emoji": "😇",
+      "name": "smiling face with halo",
+      "usage_tier": 4,
+      "priority": 29
+    },
+    "E": {
+      "emoji": "🤩",
+      "name": "star-struck",
+      "usage_tier": 5,
+      "priority": 30
+    },
+    "4": {
+      "emoji": "😃",
+      "name": "grinning face with big eyes",
+      "usage_tier": 5,
+      "priority": 31
+    },
+    "Q": {
+      "emoji": "🙃",
+      "name": "upside-down face",
+      "usage_tier": 5,
+      "priority": 32
+    },
+    "S": {
+      "emoji": "😬",
+      "name": "grimacing face",
+      "usage_tier": 5,
+      "priority": 33
+    },
+    "N": {
+      "emoji": "🤞",
+      "name": "crossed fingers",
+      "usage_tier": 5,
+      "priority": 34
+    },
+    "o": {
+      "emoji": "👏",
+      "name": "clapping hands",
+      "usage_tier": 5,
+      "priority": 35
+    },
+    "W": {
+      "emoji": "🥹",
+      "name": "face holding back tears",
+      "usage_tier": 5,
+      "priority": 36
+    },
+    "q": {
+      "emoji": "😅",
+      "name": "grinning face with sweat",
+      "usage_tier": 5,
+      "priority": 37
+    },
+    "K": {
+      "emoji": "👋",
+      "name": "waving hand",
+      "usage_tier": 5,
+      "priority": 38
+    },
+    "5": {
+      "emoji": "🎁",
+      "name": "wrapped gift",
+      "usage_tier": 6,
+      "priority": 39
+    },
+    "t": {
+      "emoji": "🍀",
+      "name": "four leaf clover",
+      "usage_tier": 6,
+      "priority": 40
+    },
+    "B": {
+      "emoji": "🌈",
+      "name": "rainbow",
+      "usage_tier": 6,
+      "priority": 41
+    },
+    "G": {
+      "emoji": "⭐",
+      "name": "star",
+      "usage_tier": 6,
+      "priority": 42
+    },
+    "2": {
+      "emoji": "🌺",
+      "name": "hibiscus",
+      "usage_tier": 6,
+      "priority": 43
+    },
+    "T": {
+      "emoji": "🌸",
+      "name": "cherry blossom",
+      "usage_tier": 6,
+      "priority": 44
+    },
+    "R": {
+      "emoji": "🍕",
+      "name": "pizza",
+      "usage_tier": 6,
+      "priority": 45
+    },
+    "k": {
+      "emoji": "🍔",
+      "name": "hamburger",
+      "usage_tier": 6,
+      "priority": 46
+    },
+    "8": {
+      "emoji": "☕",
+      "name": "hot beverage",
+      "usage_tier": 6,
+      "priority": 47
+    },
+    "s": {
+      "emoji": "🎮",
+      "name": "video game",
+      "usage_tier": 6,
+      "priority": 48
+    },
+    "g": {
+      "emoji": "⚡",
+      "name": "high voltage",
+      "usage_tier": 6,
+      "priority": 49
+    },
+    "6": {
+      "emoji": "🌙",
+      "name": "crescent moon",
+      "usage_tier": 6,
+      "priority": 50
+    },
+    "j": {
+      "emoji": "☀️",
+      "name": "sun",
+      "usage_tier": 6,
+      "priority": 51
+    },
+    "C": {
+      "emoji": "🎵",
+      "name": "musical note",
+      "usage_tier": 6,
+      "priority": 52
+    },
+    "w": {
+      "emoji": "🎶",
+      "name": "musical notes",
+      "usage_tier": 6,
+      "priority": 53
+    },
+    "d": {
+      "emoji": "🌻",
+      "name": "sunflower",
+      "usage_tier": 6,
+      "priority": 54
+    },
+    "V": {
+      "emoji": "🐶",
+      "name": "dog face",
+      "usage_tier": 6,
+      "priority": 55
+    },
+    "h": {
+      "emoji": "🐱",
+      "name": "cat face",
+      "usage_tier": 6,
+      "priority": 56
+    },
+    "U": {
+      "emoji": "🧔",
+      "name": "person: beard",
+      "usage_tier": 7,
+      "priority": 57
+    },
+    "7": {
+      "emoji": "🍊",
+      "name": "tangerine",
+      "usage_tier": 7,
+      "priority": 58
+    }
+  },
+  "priority_order": [
+    "1",
+    "3",
+    "x",
+    "p",
+    "u",
+    "b",
+    "y",
+    "z",
+    "e",
+    "f",
+    "i",
+    "F",
+    "X",
+    "Y",
+    "H",
+    "J",
+    "Z",
+    "r",
+    "L",
+    "n",
+    "9",
+    "P",
+    "A",
+    "D",
+    "m",
+    "a",
+    "c",
+    "M",
+    "v",
+    "E",
+    "4",
+    "Q",
+    "S",
+    "N",
+    "o",
+    "W",
+    "q",
+    "K",
+    "5",
+    "t",
+    "B",
+    "G",
+    "2",
+    "T",
+    "R",
+    "k",
+    "8",
+    "s",
+    "g",
+    "6",
+    "j",
+    "C",
+    "w",
+    "d",
+    "V",
+    "h",
+    "U",
+    "7"
+  ]
+}
