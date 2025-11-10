@@ -147,7 +147,7 @@ class EmojiSimilarityAnalyzer:
                             f.write(response.content)
                         downloaded += 1
                         success = True
-                    except:
+                    except requests.exceptions.RequestException:
                         pass
 
                 if not success:
