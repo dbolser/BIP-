@@ -45,6 +45,21 @@ class EmojiSimilarityAnalyzer:
         self.images = {}  # emoji_id -> PIL Image
         self.similarity_matrix = {}  # (id1, id2) -> similarity_score
 
+    def _get_emoji_filepath(self, emoji: Dict) -> Path:
+        """
+        Construct the filepath for a given emoji's image
+
+        Args:
+            emoji: Emoji dictionary with 'codepoint' and 'name' keys
+
+        Returns:
+            Path to the emoji image file
+        """
+        codepoint = emoji['codepoint'].replace(' ', '-').lower()
+        safe_name = emoji['name'].replace('/', '-').replace(' ', '_')
+        filename = f"{codepoint}_{safe_name}.png"
+        return self.images_dir / filename
+
     def filter_problematic_emoji(self) -> List[Dict]:
         """
         Filter out problematic emoji categories:
@@ -108,10 +123,8 @@ class EmojiSimilarityAnalyzer:
                 f"https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/{codepoint}.svg",
             ]
 
-            # Create safe filename
-            safe_name = emoji['name'].replace('/', '-').replace(' ', '_')
-            filename = f"{codepoint}_{safe_name}.png"
-            filepath = self.images_dir / filename
+            # Get filepath using helper method
+            filepath = self._get_emoji_filepath(emoji)
 
             # Skip if already downloaded
             if filepath.exists():
@@ -161,10 +174,7 @@ class EmojiSimilarityAnalyzer:
 
     def load_and_preprocess_image(self, emoji: Dict, size=(64, 64)) -> Image.Image:
         """Load and preprocess emoji image"""
-        codepoint = emoji['codepoint'].replace(' ', '-').lower()
-        safe_name = emoji['name'].replace('/', '-').replace(' ', '_')
-        filename = f"{codepoint}_{safe_name}.png"
-        filepath = self.images_dir / filename
+        filepath = self._get_emoji_filepath(emoji)
 
         if not filepath.exists():
             raise FileNotFoundError(f"Image not found: {filepath}")
