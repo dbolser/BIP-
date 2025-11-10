@@ -22,6 +22,7 @@ BIP-😸 is an **informational BIP** that explores encoding Bitcoin addresses as
 ## 📚 Documentation
 
 - **[EMOJI_SELECTION_REPORT.md](EMOJI_SELECTION_REPORT.md)** - Visual similarity analysis and final emoji selection
+- **[SCANNER_README.md](SCANNER_README.md)** - Browser OCR scanner documentation and usage guide
 - **[TODO.md](TODO.md)** - Comprehensive task breakdown with 8 development phases
 - **[BIP_REVIEW.md](BIP_REVIEW.md)** - Detailed analysis of strengths, weaknesses, and challenges
 
@@ -29,6 +30,8 @@ BIP-😸 is an **informational BIP** that explores encoding Bitcoin addresses as
 
 - **`emoji_codec.py`** - Reference encoder/decoder implementation
 - **`demo.py`** - Interactive demonstration of all features
+- **`scanner.html`** - Browser-based OCR scanner for emoji addresses
+- **`display.html`** - Emoji address display page for testing scanner
 - **`visual_similarity.py`** - Perceptual hash-based similarity analyzer
 - **`base58_frequency.py`** - Character frequency analyzer for optimal mapping
 - **`data/base58_emoji_mapping.json`** - Final Base58→Emoji mapping table
@@ -140,6 +143,19 @@ python emoji_codec.py scan '🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴
 python demo.py
 ```
 
+### Browser-Based OCR Scanner
+
+**Test emoji address scanning:**
+```bash
+# Open display page to show emoji addresses
+open display.html
+
+# Open scanner page to scan and decode
+open scanner.html
+```
+
+See **[SCANNER_README.md](SCANNER_README.md)** for detailed scanner documentation and usage guide.
+
 ### Example Output
 
 ```
@@ -177,6 +193,7 @@ This is a research project. Contributions welcome for:
 | Document | Purpose |
 |----------|---------|
 | README.md | Project overview and quick start |
+| SCANNER_README.md | Browser OCR scanner guide and documentation |
 | EMOJI_SELECTION_REPORT.md | Visual similarity analysis results |
 | TODO.md | Detailed task breakdown (8 phases) |
 | BIP_REVIEW.md | Critical analysis and recommendations |
