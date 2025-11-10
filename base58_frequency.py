@@ -68,46 +68,6 @@ def analyze_sample_addresses() -> Counter:
     return char_counter
 
 
-def analyze_address_structure() -> Dict[str, any]:
-    """
-    Analyze structural patterns in Bitcoin addresses
-
-    Returns expected frequency distribution based on:
-    1. Address format (P2PKH vs P2SH)
-    2. Checksum properties
-    3. Version byte patterns
-    """
-
-    analysis = {
-        'first_char': {
-            '1': 0.70,  # ~70% of legacy addresses are P2PKH
-            '3': 0.30,  # ~30% are P2SH
-        },
-        'high_frequency': [
-            # These characters appear more often due to:
-            # - Version bytes (1, 3)
-            # - Base58 encoding bias
-            # - Common hash patterns
-            '1', '3', 'Q', 'R', 'S', 'T',
-            'a', 'b', 'c', 'd', 'e', 'f',
-            'A', 'B', 'C', 'D', 'E', 'F',
-        ],
-        'medium_frequency': [
-            # Regular occurrence
-            'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P',
-            'U', 'V', 'W', 'X', 'Y', 'Z',
-            'g', 'h', 'i', 'j', 'k', 'm', 'n', 'o',
-        ],
-        'low_frequency': [
-            # Less common
-            '2', '4', '5', '6', '7', '8', '9',
-            'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-        ],
-    }
-
-    return analysis
-
-
 def create_optimal_mapping(candidates_file='data/top_candidates.json') -> Dict:
     """
     Create optimal Base58 -> Emoji mapping
@@ -124,7 +84,6 @@ def create_optimal_mapping(candidates_file='data/top_candidates.json') -> Dict:
 
     # Get character frequency
     char_freq = analyze_sample_addresses()
-    structure = analyze_address_structure()
 
     # Sort Base58 chars by importance
     # Priority 1: Address prefixes (1, 3)

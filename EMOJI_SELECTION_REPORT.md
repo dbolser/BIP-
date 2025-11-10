@@ -166,14 +166,14 @@ Emoji:   🧔🤶🧔🐞🥝🧔🫅🥝🤚🦪🍁🫅🤴🕸️🤫🍎🍏
 
 ```
 Base58:  1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
-Emoji:   🧔🫵👦🫵🍏🫑🤶👧🌳🖖👋🫅🖖🍑🌸🤴😶🤚🍊🐣🧑✋👱✋🍁🤴🍁👊👸👩🐣😶👦😶🤫
+Emoji:   🧔🫵👦🫵🍏🫑🪲👧🌳🖖👋🫅🖖🍑🌸🏵️👲🤚🤶🧑✋👱✋🍁🏵️🦻👊👸👩🐣😶😦😶🤫
 ```
 
 ### P2SH Address
 
 ```
 Base58:  3J98t1WpEZ73CNmYviecrnyiWrnqRhWNLy
-Emoji:   🍊👩👴👊🖖🧔👋✊🫅🪲👨👊👴🍊👏😶👱👧🕸️🫅👦🕸️🧒😶👧🕸️🐺😶🦪🍈👧
+Emoji:   🍊👩👴👶🖖🧔👋✊🪲👨👊🍊👏😶👱👧👦🕸️🫅🖐️🧒👲🐵🕸️👋🧒👲🍑🤲🫰👋😶🍈🐵
 ```
 
 ---
