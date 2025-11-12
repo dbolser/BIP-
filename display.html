@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIP-😸 Address Display - For Testing OCR Scanner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .input-group {
+            margin: 20px 0;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin-top: 10px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .display-box {
+            margin: 30px 0;
+            padding: 40px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            text-align: center;
+            min-height: 200px;
+            display: none;
+        }
+
+        .display-box.active {
+            display: block;
+        }
+
+        .address-label {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .emoji-address {
+            font-size: 3em;
+            line-height: 1.6;
+            word-break: break-all;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+
+        .base58-address {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2em;
+            color: #667eea;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            word-break: break-all;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .info-box h3 {
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+
+        .examples {
+            margin: 20px 0;
+        }
+
+        .example-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .example-item:hover {
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .example-label {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .example-address {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .controls button {
+            margin-top: 0;
+        }
+
+        .size-controls {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+            justify-content: center;
+        }
+
+        .size-btn {
+            padding: 10px 20px;
+            width: auto;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 BIP-😸 Address Display</h1>
+        <p class="subtitle">Generate emoji addresses to test the OCR scanner</p>
+
+        <div class="info-box">
+            <h3>How to test:</h3>
+            <p>1. Enter a Bitcoin address below or select an example<br>
+            2. The emoji version will be displayed in large text<br>
+            3. Open scanner.html on another device and scan this screen<br>
+            4. Or save/screenshot this page and upload to the scanner</p>
+        </div>
+
+        <div class="input-group">
+            <label for="addressInput">Bitcoin Address (Base58):</label>
+            <input type="text"
+                   id="addressInput"
+                   placeholder="Enter Bitcoin address (e.g., 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)"
+                   value="1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa">
+            <button onclick="encodeAddress()">🔄 Encode to Emoji</button>
+        </div>
+
+        <div class="examples">
+            <h3>Example Addresses (click to use):</h3>
+            <div class="example-item" onclick="useExample('1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa')">
+                <div class="example-label">Genesis Block (Satoshi's Address)</div>
+                <div class="example-address">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</div>
+            </div>
+            <div class="example-item" onclick="useExample('1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2')">
+                <div class="example-label">Example Address #1</div>
+                <div class="example-address">1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</div>
+            </div>
+            <div class="example-item" onclick="useExample('3J98t1WpEZ73CNmYviecrnyiWrnqRhWNLy')">
+                <div class="example-label">Example P2SH Address</div>
+                <div class="example-address">3J98t1WpEZ73CNmYviecrnyiWrnqRhWNLy</div>
+            </div>
+        </div>
+
+        <div class="display-box" id="displayBox">
+            <div class="address-label">Emoji Address</div>
+            <div class="emoji-address" id="emojiDisplay"></div>
+
+            <div class="size-controls">
+                <button class="size-btn" onclick="changeSize('small')">Small</button>
+                <button class="size-btn" onclick="changeSize('medium')">Medium</button>
+                <button class="size-btn" onclick="changeSize('large')">Large</button>
+                <button class="size-btn" onclick="changeSize('xlarge')">X-Large</button>
+            </div>
+
+            <div class="address-label" style="margin-top: 20px;">Original Base58 Address</div>
+            <div class="base58-address" id="base58Display"></div>
+
+            <div class="controls">
+                <button onclick="copyEmoji()">📋 Copy Emoji</button>
+                <button onclick="copyBase58()">📋 Copy Base58</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Base58 to Emoji mapping
+        const BASE58_TO_EMOJI = {
+            "1": "🧔", "3": "🍊", "X": "💮", "e": "🫅", "Y": "👧",
+            "f": "🤴", "i": "🕸️", "F": "🏵️", "u": "🧑", "H": "👵",
+            "p": "✊", "J": "👩", "Z": "👨", "r": "🧒", "L": "🍈",
+            "b": "🧓", "n": "👲", "9": "👴", "P": "🥝", "A": "🤶",
+            "D": "🍎", "m": "👱", "a": "🐣", "c": "🖐️", "M": "🍏",
+            "v": "👦", "E": "🪲", "4": "✋", "y": "🐵", "Q": "🦪",
+            "S": "🫑", "N": "😶", "o": "🐶", "W": "👋", "q": "🍑",
+            "K": "🦔", "z": "🐞", "5": "🤚", "t": "🖖", "B": "🫵",
+            "x": "👸", "G": "🍁", "2": "🤫", "T": "🌸", "R": "🤲",
+            "k": "🍐", "8": "👶", "s": "🌳", "g": "🦻", "6": "🙈",
+            "j": "🫥", "C": "👏", "w": "👂", "d": "🪴", "V": "😦",
+            "h": "🫰", "U": "🗯️", "7": "👊"
+        };
+
+        const BASE58_ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+
+        function encodeAddress() {
+            const address = document.getElementById('addressInput').value.trim();
+
+            if (!address) {
+                alert('Please enter a Bitcoin address');
+                return;
+            }
+
+            // Validate that all characters are in Base58 alphabet
+            const invalidChars = [];
+            for (let char of address) {
+                if (!BASE58_ALPHABET.includes(char)) {
+                    invalidChars.push(char);
+                }
+            }
+
+            if (invalidChars.length > 0) {
+                alert('Invalid characters found: ' + invalidChars.join(', ') + '\nBase58 addresses should not contain: 0, O, I, l');
+                return;
+            }
+
+            // Convert to emoji
+            let emojiAddress = '';
+            for (let char of address) {
+                emojiAddress += BASE58_TO_EMOJI[char] || '❓';
+            }
+
+            // Display
+            document.getElementById('emojiDisplay').textContent = emojiAddress;
+            document.getElementById('base58Display').textContent = address;
+            document.getElementById('displayBox').classList.add('active');
+        }
+
+        function useExample(address) {
+            document.getElementById('addressInput').value = address;
+            encodeAddress();
+        }
+
+        function changeSize(size) {
+            const display = document.getElementById('emojiDisplay');
+            const sizes = {
+                'small': '2em',
+                'medium': '3em',
+                'large': '4em',
+                'xlarge': '5em'
+            };
+            display.style.fontSize = sizes[size];
+        }
+
+        function copyEmoji() {
+            const text = document.getElementById('emojiDisplay').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Emoji address copied to clipboard!');
+            });
+        }
+
+        function copyBase58() {
+            const text = document.getElementById('base58Display').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Base58 address copied to clipboard!');
+            });
+        }
+
+        // Auto-encode on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            encodeAddress();
+        });
+    </script>
+</body>
+</html>
